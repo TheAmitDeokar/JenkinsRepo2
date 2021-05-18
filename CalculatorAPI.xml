@@ -1,0 +1,29 @@
+
+<suite name="TestingCalculatorAPI">
+
+       <test name="AdditionTestCases">
+       <classes>
+          <class name="QualityKiosksTraining.CalculatorAPI.AdditionTestCases"/>
+       </classes>
+       </test>
+      
+       <test name="SubtractionTestCases">
+       <classes>
+          <class name="QualityKiosksTraining.CalculatorAPI.TestSubtraction"/>
+       </classes>
+       </test>
+       
+       <test name ="MultiplicationTestCases">
+        <classes>
+          <class name="QualityKiosksTraining.CalculatorAPI.TestMultiplication"/>
+       </classes>
+       </test>
+       
+       <test name ="DivisionTestCases">
+        <classes>
+          <class name="QualityKiosksTraining.CalculatorAPI.TestDivisionFunctionality"/>
+       </classes>
+       </test>
+       
+       
+</suite>

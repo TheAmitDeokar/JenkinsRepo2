@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="QualityKiosksTraining.CalculatorAPI.TestSubtraction">
+        <methods>
+          <include name="Teardown"/>
+          <include name="ReInitialise"/>
+          <include name="TestSubtractionWith1Positive1NegativeNumbers"/>
+          <include name="Init"/>
+          <include name="TestSubtractionWithPositiveNumbers"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.CalculatorAPI.TestSubtraction -->
+      <class name="QualityKiosksTraining.CalculatorAPI.TestMultiplication">
+        <methods>
+          <include name="CreateResultFolder"/>
+          <include name="CopyResultFile"/>
+          <include name="ReinitializingResult"/>
+          <include name="Init"/>
+          <include name="TestMultiplicationWithPositiveNumbers"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.CalculatorAPI.TestMultiplication -->
+      <class name="QualityKiosksTraining.CalculatorAPI.TestDivisionFunctionality">
+        <methods>
+          <include name="ReleaseObj"/>
+          <include name="TestdivisionWithNegative"/>
+          <include name="InitialiseRes"/>
+          <include name="TestdivisionWithPositive"/>
+          <include name="CreateObj"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.CalculatorAPI.TestDivisionFunctionality -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

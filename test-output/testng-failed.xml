@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestingCalculatorAPI]">
+  <test thread-count="5" name="AdditionTestCases(failed)">
+    <classes>
+      <class name="QualityKiosksTraining.CalculatorAPI.AdditionTestCases">
+        <methods>
+          <include name="Teardown"/>
+          <include name="TestAdditionWithOnePositiveOneNegative"/>
+          <include name="TestAdditionWithZeroNumbers"/>
+          <include name="Init"/>
+          <include name="TestAdditionWithPositiveNumbers"/>
+          <include name="ReinitialiseResultVar"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.CalculatorAPI.AdditionTestCases -->
+    </classes>
+  </test> <!-- AdditionTestCases(failed) -->
+  <test thread-count="5" name="SubtractionTestCases(failed)">
+    <classes>
+      <class name="QualityKiosksTraining.CalculatorAPI.TestSubtraction">
+        <methods>
+          <include name="TestSubtractionWithPositiveNumbers"/>
+          <include name="TestSubtractionWith1Positive1NegativeNumbers"/>
+          <include name="Teardown"/>
+          <include name="ReInitialise"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.CalculatorAPI.TestSubtraction -->
+    </classes>
+  </test> <!-- SubtractionTestCases(failed) -->
+  <test thread-count="5" name="MultiplicationTestCases(failed)">
+    <classes>
+      <class name="QualityKiosksTraining.CalculatorAPI.TestMultiplication">
+        <methods>
+          <include name="CreateResultFolder"/>
+          <include name="ReinitializingResult"/>
+          <include name="Init"/>
+          <include name="CopyResultFile"/>
+          <include name="TestMultiplicationWithPositiveNumbers"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.CalculatorAPI.TestMultiplication -->
+    </classes>
+  </test> <!-- MultiplicationTestCases(failed) -->
+  <test thread-count="5" name="DivisionTestCases(failed)">
+    <classes>
+      <class name="QualityKiosksTraining.CalculatorAPI.TestDivisionFunctionality">
+        <methods>
+          <include name="CreateObj"/>
+          <include name="InitialiseRes"/>
+          <include name="ReleaseObj"/>
+          <include name="TestdivisionWithNegative"/>
+          <include name="TestdivisionWithPositive"/>
+        </methods>
+      </class> <!-- QualityKiosksTraining.CalculatorAPI.TestDivisionFunctionality -->
+    </classes>
+  </test> <!-- DivisionTestCases(failed) -->
+</suite> <!-- Failed suite [TestingCalculatorAPI] -->
